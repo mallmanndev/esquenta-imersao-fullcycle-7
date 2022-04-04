@@ -1,0 +1,12 @@
+GET http://localhost:8081/courses
+Content-Type: application/json
+
+###
+
+POST http://localhost:8081/course
+Content-Type: application/json
+
+{
+    "id": "1",
+    "course_name": "ZZZ"
+}
